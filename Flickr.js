@@ -47,8 +47,6 @@ function getPhotosForSearch(searchTerm) {
         pictureGallery.appendChild(photoImage);
       });
     });
-  //     .then(x => console.log(x))
-  // );
 }
 
 formSearch.addEventListener('submit', (event) => {
